@@ -21,7 +21,7 @@ const formSearch = document.querySelector('.form-search');
         
          filterCity.forEach((item) => {
             const li = document.createElement('li');
-            li.classList.add('dropdown__cities-from');
+            li.classList.add('dropdown__city');
             li.textContent = item;
             list.append(li)
         });
@@ -52,7 +52,7 @@ const formSearch = document.querySelector('.form-search');
        
         filterCity.forEach((item) => {
            const li = document.createElement('li');
-           li.classList.add('dropdown__cities-to');
+           li.classList.add('dropdown__city');
            li.textContent = item;
            list.append(li)
        });
