@@ -88,17 +88,10 @@ input{
 }
 
 .wrapper__search
-.input 
-:focus{
+.input
+:valid:focus{
 	border-bottom-left-radius: 0;
 	border-bottom-right-radius: 0;
-}
-
-.wrapper__search
-.input 
-:focus:after{
-	border-radius: 25px;
-
 }
 
 .wrapper__search 
